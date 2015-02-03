@@ -102,6 +102,7 @@ public class MainClass {
 			System.out.println("6: Quit");
 			
 			System.out.println("What do you want to do ");
+			
 			String temp2 = scan.nextLine() ;
 			//Throw Exception for the wrong menu input
 			try{ choice = Integer.parseInt(temp2);}
